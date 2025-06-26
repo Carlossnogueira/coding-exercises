@@ -2,3 +2,5 @@ node_modules
 output
 *.exe
 .vscode
+annotations.md
+build

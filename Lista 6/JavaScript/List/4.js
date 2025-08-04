@@ -4,7 +4,5 @@ const nomes = ["Ana", "João", "Carlos", "Beatriz", "Joana"];
 const nomescomJ = nomes.filter((nome) => nome.startsWith("J"));
 console.log(nomescomJ);  
 
-
-
 const buscaOIndice = nomes.findIndex((nome) => nome === "Carlos")
 console.log(buscaOIndice); 

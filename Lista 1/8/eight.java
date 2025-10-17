@@ -17,7 +17,9 @@ public class eight{
         System.out.println("Altura:");
         float A = sc.nextFloat();
 
-        System.out.println("O resultado é: " + (V * R * R * A));
+        V = V * R * R * A;
+
+        System.out.println("O resultado é: " + V);
         sc.close();
     }
 }

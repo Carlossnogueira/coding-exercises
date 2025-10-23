@@ -12,7 +12,7 @@ public class Nine {
             System.out.println("Day?");
             int day = sc.nextInt();
 
-            System.out.println("Mouth?");
+            System.out.println("Month?");
             int month = sc.nextInt();
 
             System.out.println("Year?");

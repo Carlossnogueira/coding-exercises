@@ -82,6 +82,7 @@ int main()
         // std::toupper expects an unsigned char (or EOF),
         // so we cast to unsigned char before calling it
         // and cast back to char afterwards.
+        // Cast to unsigned char to avoid undefined behavior in std::toupper
         char upper_c = static_cast<char>(std::toupper(static_cast<unsigned char>(wantContinue)));
 
 

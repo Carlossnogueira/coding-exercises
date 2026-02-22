@@ -16,7 +16,7 @@ public class Three {
         return sum;
     }
 
-    public static void main(String[] args) {
+    public static void Main(String[] args) {
 
         List<Integer> list = new ArrayList<>();
 
